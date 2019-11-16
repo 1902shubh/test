@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#eaf0f1"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="app.daytoday.softpro.gradleproj.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/errorButton"
+        android:text="Error Button"
+        android:textAllCaps="false"
+        android:background="#BA2f16"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="10dp"
+        android:onClick="showToast"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/successButton"
+        android:text="Success Button"
+        android:textAllCaps="false"
+        android:background="#26ae60"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="10dp"
+        android:onClick="showToast"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/infoButton"
+        android:text="Info Button"
+        android:textAllCaps="false"
+        android:background="#0a97df"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="10dp"
+        android:onClick="showToast"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/warningButton"
+        android:text="Warning Button"
+        android:textAllCaps="false"
+        android:background="#e74292"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="10dp"
+        android:onClick="showToast"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:text="Image Button"
+        android:textAllCaps="false"
+        android:background="#00cccd"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="10dp"
+        android:onClick="showToast"/>
+</LinearLayout>
